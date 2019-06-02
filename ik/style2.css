@@ -1,0 +1,235 @@
+@charset "utf-8";
+/*<!--fejléc-->*/
+.navbar{
+    background-color: rgb(220, 248, 194);
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.nav-link{
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 104, 56);
+}
+.nav-link:hover{
+    color: rgb(220, 248, 194);
+    background-color: rgb(0, 104, 56);
+    box-shadow: inset 0 0 35px rgba(0, 0, 0, 0.61);
+    text-shadow: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+/*--himzes*/
+.himzes {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(sajat/himzeshatter.gif);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.himzes .img-thumbnail{
+    width: 150px;
+    padding: 0.0rem;
+   
+}
+
+.himzes-text h4{
+    font-size: 120%;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+.himzes .fly-in-text{
+    font-family: 'Vollkorn', serif;;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 60px;
+    font-size: 50px;
+    /*font-style: semi-bold;*/
+}
+.himzes h2{
+    font-family: 'Vollkorn', serif;;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    font-size: 50px;
+    /*font-style: semi-bold;*/
+}
+@media (min-width: 600px) {
+    .himzes h2{
+     display: none;
+    }
+    
+    
+}
+@media (max-width: 600px) {
+    .himzes .fly-in-text{
+     display: none;
+    }
+    
+}
+.himzes h3{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding-top: 140px; 
+}
+.himzes div{
+    text-align: center;
+}
+
+
+
+/*--horgolás*/
+.horgolas {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(sajat/horgolhatter.jpg);
+    background-size: cover;
+    color: #000;
+    background-attachment: fixed;
+}
+.horgolas .img-thumbnail{
+    width: 150px;
+   background-color: #000;
+   border-color: #000;
+   padding: 0.0rem;
+}
+
+.horgolas-text h4{
+    font-size: 120%;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+
+.horgolas h3{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-style: semi-bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding-top: 40px; 
+}
+.horgolas div{
+    text-align: center;
+}
+
+/*--varrás*/
+.varras {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url(sajat/varrashatter.jpg);
+    background-size: cover;
+    color: #000;
+    background-attachment: fixed;
+}
+.varras .img-thumbnail{
+    width: 150px;
+   background-color: rgb(0, 0, 0);
+   border-color: rgb(0, 0, 0);
+   padding: 0.0rem;
+}
+
+.varras-text h4{
+    font-size: 120%;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+.varras h3{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-style: semi-bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.varras div{
+    text-align: center;
+}
+
+
+
+/*--Használati tárgyak*/
+.hasznalat {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(sajat/hasznalathatter.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.hasznalat .img-thumbnail{
+    width: 150px;
+    padding: 0.0rem;
+   
+}
+
+.hasznalat-text h4{
+    font-size: 120%;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+.hasznalat h3{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-style: semi-bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding-top: 40px; 
+}
+.hasznalat div{
+    text-align: center;
+}
+
+/*ANIMÁCIÓ*/
+.fly-in-text {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+
+    transform: translateX(+25%) translateY(-5%);
+}
+.fly-in-text li{
+    display: inline-block;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.fly-in-text.hidden li {
+    /*opacity: 0;*/
+}
+.fly-in-text.hidden li:nth-child(1){transform: translateX(-25px) translateY(-25px);}
+.fly-in-text.hidden li:nth-child(2){transform: translateX(4px) translateY(13px);}
+.fly-in-text.hidden li:nth-child(3){transform: translateX(-19px) translateY(-10px);}
+.fly-in-text.hidden li:nth-child(4){transform: translateX(2px) translateY(-25px);}
+.fly-in-text.hidden li:nth-child(5){transform: translateX(-38px) translateY(25px);}
+.fly-in-text.hidden li:nth-child(6){transform: translateX(3px) translateY(-3px);}
+.fly-in-text.hidden li:nth-child(7){transform: translateX(4px) translateY(25px);}
+.fly-in-text.hidden li:nth-child(8){transform: translateX(-25px) translateY(-25px);}
+.fly-in-text.hidden li:nth-child(9){transform: translateX(4px) translateY(13px);}
+.fly-in-text.hidden li:nth-child(10){transform: translateX(-19px) translateY(-10px);}
+.fly-in-text.hidden li:nth-child(11){transform: translateX(2px) translateY(-25px);}
+.fly-in-text.hidden li:nth-child(12){transform: translateX(-38px) translateY(25px);}
+.fly-in-text.hidden li:nth-child(13){transform: translateX(3px) translateY(-3px);}
+.fly-in-text.hidden li:nth-child(14){transform: translateX(4px) translateY(25px);}

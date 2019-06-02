@@ -1,0 +1,36 @@
+{
+    "velemeny":[
+        {
+            "text" : "Az édesanyám teljesen kivírult, mióta ide jár! Minden nap bolgan jön haza.",
+            "nev": "Eszter, egy klubtag lánya"
+        },
+        {
+            "text" : "Csodálatos, hogy jönnek létre még ilyen közösségek! Remélem akkor is lesz hasonló, amikor én leszek idős!" ,
+            "nev": "Kitti, egy lelkes unoka"
+        },
+        {
+            "text" : "Azért szeretek ide járni, mert végre nem kell egyedül otthon ülöm és hasznosnak érezhetem magam." ,
+            "nev": "Marika néni"
+        },
+        {
+            "text" : "Jó korombeliek társaságában tölteni a napom, legjobban a közös játékokat szeretem." ,
+            "nev": "Juci néni"
+        },
+        {
+            "text" : "Itt mindig csinálunk valamit,a kézügyességem is visszatért, én sokat köszönhetek ennek a klubnak!" ,
+            "nev": "Terike néni"
+        },
+        {
+            "text" : "Imádok bingózni, és végre megint kórusban énekelhetek, mint fiatal koromban.",
+            "nev": "Teca néni"
+        },
+        {
+            "text" : "Itt nem kell a betegségeimre gondolnom, ha valaki szomorú, őt is mindig próbáljuk felvidítani, együtt könnyebb az élet.",
+            "nev": "Marci bácsi"
+        },
+        {
+            "text" : "Engem sem hagynak soha unatkozni, nagyon szeretk itt dolgozni, mindig jó a hangulat, mintha lenne egy új családom.",
+            "nev": "Emma, a klub vezetője"
+        }
+    ]
+}
